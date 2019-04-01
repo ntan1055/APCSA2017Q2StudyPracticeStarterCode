@@ -5,7 +5,7 @@ public class MultPractice implements StudyPractice
 {
     private int first;
     private int second;
-    
+
     public MultPractice(int first, int second)
     {
         this.first = first;
@@ -14,7 +14,7 @@ public class MultPractice implements StudyPractice
 
     public String getProblem()
     {
-        String problem = first + "TIMES" + second;
+        String problem = first + " " + "TIMES" + " "  + second;
         return problem;
     }
 
